@@ -1,0 +1,17 @@
+target/
+classes/
+webapp/WEB-INF/classes/
+webapp/assets
+UX/react-api-tester/src/EPlayground.tsx
+webapp/assets/index.html
+local_tomcat/logs/
+local_tomcat/webapps/
+UX/react-api-tester/dist/
+UX/react-api-tester/node_modules
+UX/react-api-tester/logs
+UX/react-api-tester/.log
+UX/react-api-tester/.local
+UX/react-api-tester/.vscode
+UX/react-api-tester/src/DanielPlayground.tsx
+!UX/react-api-tester/.vscode/extensions.json
+uc/uc.log
