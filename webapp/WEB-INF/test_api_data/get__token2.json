@@ -1,0 +1,8 @@
+{
+	"status" : 500,
+	"data" : {
+		"title": "your's token is really bad",
+		"detail" : "Go away error"
+	}
+
+}

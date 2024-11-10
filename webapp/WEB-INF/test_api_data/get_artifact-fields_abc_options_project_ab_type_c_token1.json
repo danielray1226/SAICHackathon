@@ -1,0 +1,16 @@
+{
+	"status" : 200,
+	"data" : {
+		"items" : [
+			{
+				"id" : "abc",
+				"label" : "abc"
+			},
+			{
+				"id" : "xyz",
+				"label" : "ab"
+			}
+		],
+		"next_cursor" : "bzzzzz"
+	} 
+}

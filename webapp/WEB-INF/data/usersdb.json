@@ -1,0 +1,20 @@
+{
+	"mylogin1": {
+		"password": "p@ssword1",
+		"name": "John Galt",
+		"comments" : "cookies/user information should be stored in a secure database, passwords should be hashed",
+		"apiToken" : "demo____password"
+		
+	},
+	"mylogin2": {
+		"password": "p@ssword2",
+		"name": "Dr.Evil",
+		"apiToken" : "demo____password"
+	},
+	"mylogin3": {
+		"password": "p@ssword3",
+		"name": "Dr.Good",
+		"apiToken" : "demo____password"
+	}		
+
+}
