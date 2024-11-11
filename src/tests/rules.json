@@ -1,0 +1,52 @@
+{
+	"rules" : {
+		"/a" : {
+			"jsonPropertyType" : "OBJECT"
+		},
+		"/a/b" : {
+			"parent" : "/a",
+			"jsonProperty" : "b",
+			"jsonPropertyType" : "OBJECT"
+		},
+		"/a/b/c" : {
+			"parent" : "/a/b",
+			"jsonProperty" : "c",
+			"jsonPropertyType" : "ARRAY"
+		},
+		"/a/b/c/d" : {
+			"parent" : "/a/b/c",
+			"jsonProperty" : "d",
+			"jsonPropertyType" : "OBJECT"
+		},
+		"/a/b/c/d/*" : {
+			"parent" : "/a/b/c/d",
+			"jsonProperty" : "jsonattr1",
+			"jsonPropertyType" : "STRING"
+		},
+		"/a/b/c/d/@id" : {
+			"parent" : "/a/b/c/d",
+			"jsonProperty" : "id",
+			"jsonPropertyType" : "NUMBER"
+		},
+		"/a/b/c/d/@f" : {
+			"parent" : "/a/b/c/d",
+			"jsonProperty" : "f",
+			"jsonPropertyType" : "STRING"
+		},
+		"/a/b/c/e/*" : {
+			"parent" : "/a/b/c",
+			"jsonProperty" : "e",
+			"jsonPropertyType" : "STRING"
+		},
+		"/a/b/c/l" : {
+			"parent" : "/a/b/c",
+			"jsonProperty" : "l",
+			"jsonPropertyType" : "ARRAY"
+		},
+		"/a/b/c/l/@attr1" : {
+			"parent" : "/a/b/c",
+			"jsonProperty" : "l",
+			"jsonPropertyType" : "NUMBER"
+		}		
+	}
+}
