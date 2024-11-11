@@ -1,0 +1,18 @@
+<a>
+	<z>hi there</z>
+	<b>
+		<c>
+		    <d id="1" >text1</d>
+			<e>text2</e>
+		</c>
+		<c>
+			<d id="2" f="hello">text3</d>
+			<g>
+				<k>hi there</k>
+			</g>
+			<l attr1="1" />
+			<l attr1="2" />
+		</c>
+		<z>here is z again</z>
+	</b>
+</a>
